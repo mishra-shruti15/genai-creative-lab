@@ -1,0 +1,24 @@
+Product: iPhone 14
+Category: Smartphone
+Price: ₹70,000
+Description: Apple smartphone with A15 Bionic chip and dual camera.
+
+Product: Samsung Galaxy S23
+Category: Smartphone
+Price: ₹65,000
+Description: Android flagship with Snapdragon processor and AMOLED display.
+
+Product: Sony WH-1000XM5
+Category: Headphones
+Price: ₹30,000
+Description: Noise cancelling wireless headphones with premium sound.
+
+Product: Dell XPS 13
+Category: Laptop
+Price: ₹1,20,000
+Description: Lightweight laptop with Intel processor and long battery life.
+
+Product: Apple MacBook Air M2
+Category: Laptop
+Price: ₹1,15,000
+Description: Thin and powerful laptop with Apple M2 chip.

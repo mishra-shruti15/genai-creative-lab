@@ -1,0 +1,12 @@
+ollama
+python-dotenv
+langchain
+faiss-cpu
+langchain 
+langchain-core 
+langchain-community 
+langchain-ollama 
+langgraph
+tiktoken 
+faiss-cpu 
+sentence-transformers
