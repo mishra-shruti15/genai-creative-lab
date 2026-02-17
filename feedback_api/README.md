@@ -62,7 +62,7 @@ Ensure PostgreSQL is running and a database named feedback_db exists.
 
 Database URL used in database.py:
 
-postgresql://postgres:postgres123@localhost:5432/feedback_db
+postgresql://user:password@localhost:5432/feedback_db
 
 ### 5️⃣ Run the application
 uvicorn main:app --reload
