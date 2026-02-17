@@ -1,0 +1,21 @@
+Meeting Date: 12 July 2024
+Participants: Product Manager, Backend Engineer, Frontend Engineer, QA Lead
+
+Agenda:
+- Discuss new checkout feature
+- Timeline planning
+- Identify blockers
+
+Discussion:
+The Product Manager explained the need for a faster checkout flow.
+Backend Engineer mentioned API optimizations are required.
+Frontend Engineer proposed a new UI with fewer steps.
+QA Lead highlighted the need for additional test cases.
+
+Decisions:
+It was decided to redesign the checkout UI and optimize backend APIs.
+
+Action Items:
+Backend Engineer will optimize APIs by next week.
+Frontend Engineer will create new UI mockups.
+QA Lead will prepare test cases.
