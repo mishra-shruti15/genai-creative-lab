@@ -1,7 +1,14 @@
 from pydantic import BaseModel
 
+"""
+This file controls input validation and response format.
+Defines what data looks like when:
+•	client sends request
+•	API sends response
+"""
 
-class FeedbackCreate(BaseModel):
+# POST /feedback, validates incoming JSON
+class FeedbackCreate(BaseModel): 
     user_name: str
     message: str
 

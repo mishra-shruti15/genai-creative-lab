@@ -7,17 +7,20 @@ import crud
 from database import SessionLocal, engine
 from typing import List
 
+# Automatically create tables in DB and runs once at startup
 models.Base.metadata.create_all(bind=engine)
 
+# Fast API app title, seen on swagger UI
 app = FastAPI(title="Feedback API")
 
 
 def get_db():
-    db = SessionLocal()
+    db = SessionLocal() # Open DB session
     try:
-        yield db
+        yield db #yield to API
     finally:
-        db.close()
+        db.close() # Close after request
+    # prevents DB leaks
 
 
 @app.post("/feedback", response_model=schemas.FeedbackResponse)
@@ -33,7 +36,7 @@ def get_feedback(feedback_id: int, db: Session = Depends(get_db)):
     feedback = crud.get_feedback(db, feedback_id)
     if not feedback:
         raise HTTPException(
-            status_code=404,
+            status_code=404, # Handling missing data
             detail="Feedback not found"
         )
     return feedback
