@@ -31,16 +31,16 @@ The project follows **PEP8 standards** and uses **Swagger UI** for API testing.
 
 ## 📂 Project Structure
 
-feedback_api/
-|
-|-- main.py # FastAPI application and routes
-|-- database.py # Database connection setup
-|-- models.py # SQLAlchemy models
-|-- schemas.py # Pydantic schemas
-|-- crud.py # Database operations
-|-- requirements.txt # Project dependencies
-|-- README.md # Project documentation
-|-- feedback_API.doc # Project steps and output 
+* feedback_api/
+* |
+* |-- main.py # FastAPI application and routes
+* |-- database.py # Database connection setup
+* |-- models.py # SQLAlchemy models
+* |-- schemas.py # Pydantic schemas
+* |-- crud.py # Database operations
+* |-- requirements.txt # Project dependencies
+* |-- README.md # Project documentation
+* |-- feedback_API.doc # Project steps and output 
 
 
 ---
